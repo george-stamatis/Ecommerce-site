@@ -1,0 +1,61 @@
+/*
+    Copy from styles.css -> .au-btn-submit
+    Rename as .security-btn
+    Change border to 10px
+*/
+.security-btn {
+    position: relative;
+    right: 0;
+    width: 90px;
+    height: 45px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 43px;
+    background: #004AAD;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    box-shadow: 2px 6px 6px #05435b;
+
+}
+
+.security-btn:hover {
+    background-color: #0da8e4 !important;
+    color: #fff !important;
+}
+
+/*
+    Copy from styles.css -> .form-header
+    Rename as .login-status-header
+*/
+.login-status-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+/*
+    Copy from styles.css -> .au-input
+    Rename as .login-status-user-info
+    - remove 'solid', 'font-size', 'color'
+*/
+.login-status-user-info {
+    line-height: 43px;
+    border: 1px;
+    padding: 0 17px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease
+}
