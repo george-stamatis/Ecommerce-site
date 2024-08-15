@@ -36,7 +36,7 @@ build/
 .env
 
 # Ignore properties files with sensitive information (if applicable)
-application.properties
+/01-backend/spring-boot-ecommerce/spring-boot-ecommerce/src/main/resources/application.properties
 application.yml
 
 # Ignore sensitive config files
