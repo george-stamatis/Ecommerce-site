@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore environment variables file
+.env
+
+# Ignore properties files with sensitive information (if applicable)
+application.properties
+application.yml
+
+# Ignore sensitive config files
+*config*.yml
+*config*.properties
+src/main/resources/application-dev.properties
