@@ -42,4 +42,3 @@ application.yml
 # Ignore sensitive config files
 *config*.yml
 *config*.properties
-src/main/resources/application-dev.properties
